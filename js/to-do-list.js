@@ -2,7 +2,7 @@
 const botaoAdicionar = document.querySelector('#botao-adicionar');
 const tarefas = document.querySelector('#tarefas');
 
-botaoAdicionar.addEventListener("click", () => adicionaLinha())
+//botaoAdicionar.addEventListener("click", () => adicionaLinha());
 
 function adicionaLinha() {
 
@@ -55,3 +55,4 @@ function adicionaLinha() {
   inputText.focus();
 
 }
+
